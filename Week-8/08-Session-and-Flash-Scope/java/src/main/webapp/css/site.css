@@ -1,0 +1,254 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+}
+
+#content{
+	display: flex;
+	flex-wrap: wrap;
+	
+	padding: 30px;
+	justify-content: space-evenly;
+	
+}
+
+.product{
+	width: 25%;
+	margin: 1.5%;
+	text-decoration: none;
+	color: black;
+}
+
+.product img{
+	width:100%;
+}
+
+
+
+.rating img{
+	width:30%;
+}
+
+section h3{
+	text-align:center;
+}
+
+.manufacturer{
+	
+}
+
+.price{
+	color: darkred;
+}
+
+.weight{
+	
+}
+
+.product-list{
+	display:flex;
+	width:100%;
+	bottom-border: 1px solid black;
+	justify-content: left;
+	text-align: left;
+	line-height: .25;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid grey;
+	text-decoration: none;
+	color:black;
+	
+	
+}
+.product-list img{
+	max-width:50%;
+}
+
+.description-block{
+	width:100%;
+
+}
+
+.list-rating img{
+	width:15%;
+}
+
+.top-seller{
+	color:red;
+}
+
+.name-topsell{
+	display:flex;
+	flex-wrap: no-wrap;
+	justify-content: center;
+}
+
+.table-top-seller{
+	color: red;
+	
+}
+
+table{
+	width: 100%
+}
+
+.every-other{
+	background-color: lightgrey;
+
+}
+.content-table{
+	display: flex;
+	flex-wrap: nowrap;
+	
+	padding: 30px;
+	justify-content: space-between;
+	
+}
+
+.table-image img{
+	width: 80%;
+}
+
+.table-rating img{
+	width: 50%;
+}
+
+.product-name{
+	color: black;
+	text-decoration: none;	
+}
+
+.product-detail{
+	display: flex;
+	clear: both;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+	font-weight:200;
+}
+
+
+.product-description{
+	display: block;
+	margin-left: 3%;
+}
+
+.product-description img{
+	width: 20%;
+}
+
+product-detail-img img{
+	height: 50%;
+}
+
+.manufacturer{
+	font-weight: 200;
+	font-size: .9rem;
+}
+.price{
+	font-size: .9rem;
+}
+.weight{
+	font-size: .9rem;
+}
+
+.product-table{
+	font-weight: 200;
+	font-size: .9rem;
+	margin:0;
+	padding:0;		
+}
+
+.table-row-name{
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.table-price{
+	font-weight:550;
+	color: darkred;
+	font-size: 1rem;
+}
+.detail-name-topsell{
+	display: flex;
+	font-weight:400;
+	font-size:1 rem;
+}
+
+.detail-top-seller{
+	color: red;
+	display:block;
+	font-size: .6rem;
+	padding-left: 2px;
+	font-weight:bold;
+}
+
+.slight-bold{
+	line-weight: 550;
+}
+.text-container{
+	display: flex; 
+}
+
+.description{
+	font-size: .9rem;
+}
+
+

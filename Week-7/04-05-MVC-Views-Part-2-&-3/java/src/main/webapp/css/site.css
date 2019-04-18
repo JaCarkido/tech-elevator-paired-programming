@@ -1,0 +1,154 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+	padding-top: 10px;
+	
+}
+
+.recipe {
+		display: inline-block;
+		width: 33%;
+		margin: 1%;
+		background-color: beige;
+		text-decoration: none;	
+		color: black;
+}
+
+.recipe img{
+	width: 100%;
+}
+
+h4{
+	word-wrap:wrap;
+	text-align: left;
+
+}
+
+.rating{
+	display: flex;
+
+	
+}
+
+
+#content{
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	
+
+}
+
+.tile-ingredient-rating{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: no-wrap;
+	align-self: end;
+	
+}
+
+.tile-ingredient-rating img{
+		width:30%;
+		height:30%;
+}
+
+.tile-ingredient-rating em{
+	font-size: .75rem;
+}
+
+.recipe-link{
+	width:33%;
+}
+
+#bodyStyle {
+	background-color:white;
+	width: 100%;
+}
+
+#bodyStyle img {
+width: 30%;
+height: 90%;
+padding: 5px;
+}
+
+#description {
+	width:70%;
+}
+
+#recipeDescription{
+	text-wrap:wrap;
+
+}
+h5 {
+	font-size: 1.1rem;
+}
+
+#topContainer{
+	width:100%;
+	display:flex;
+}
+
+#listContainer {
+	border-bottom: 1px solid black;
+	
+}
+
+#preparationContainer{
+	padding-bottom: 5px;
+}
